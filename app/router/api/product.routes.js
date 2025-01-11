@@ -10,18 +10,6 @@ namedRouter.post(
   "/product/create",
   productApiController.createProduct
 );
-// namedRouter.get(
-//   "product.all",
-//   "/products",
-//   AuthCheck,
-//   productApiController.getAllProducts
-// );
-// namedRouter.get(
-//   "product.single",
-//   "/product/details/:id",
-//   AuthCheck,
-//   productApiController.getSingleProduct
-// );
 
 
 
